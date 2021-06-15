@@ -1,0 +1,144 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="id.co.hilt"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->G:\Kotlin\Hilt\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->G:\Kotlin\Hilt\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->[com.google.android.exoplayer:exoplayer-core:2.11.8] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\4295e4d0d8ee63d4f47e0d1fd89e132f\jetified-exoplayer-core-2.11.8\AndroidManifest.xml:24:5-79
+11-->[com.google.android.exoplayer:exoplayer-core:2.11.8] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\4295e4d0d8ee63d4f47e0d1fd89e132f\jetified-exoplayer-core-2.11.8\AndroidManifest.xml:24:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[com.google.firebase:firebase-firestore:21.6.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\419a5b69f8d79309cea409b06492fd62\jetified-firebase-firestore-21.6.0\AndroidManifest.xml:14:5-67
+12-->[com.google.firebase:firebase-firestore:21.6.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\419a5b69f8d79309cea409b06492fd62\jetified-firebase-firestore-21.6.0\AndroidManifest.xml:14:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16
+17    <application
+17-->G:\Kotlin\Hilt\app\src\main\AndroidManifest.xml:5:5-25:19
+18        android:name="id.co.hilt.MyApplication"
+18-->G:\Kotlin\Hilt\app\src\main\AndroidManifest.xml:9:9-38
+19        android:allowBackup="true"
+19-->G:\Kotlin\Hilt\app\src\main\AndroidManifest.xml:6:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.3.2] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\2c3d1e3e3d62f8aae03d8f71118cd139\core-1.3.2\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->G:\Kotlin\Hilt\app\src\main\AndroidManifest.xml:7:9-43
+23        android:label="@string/app_name"
+23-->G:\Kotlin\Hilt\app\src\main\AndroidManifest.xml:8:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->G:\Kotlin\Hilt\app\src\main\AndroidManifest.xml:10:9-54
+25        android:supportsRtl="true"
+25-->G:\Kotlin\Hilt\app\src\main\AndroidManifest.xml:11:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.Hilt" >
+27-->G:\Kotlin\Hilt\app\src\main\AndroidManifest.xml:12:9-42
+28        <service android:name="id.co.hilt.exoplayer.MusicService" >
+28-->G:\Kotlin\Hilt\app\src\main\AndroidManifest.xml:13:9-17:19
+28-->G:\Kotlin\Hilt\app\src\main\AndroidManifest.xml:13:18-56
+29            <intent-filter>
+29-->G:\Kotlin\Hilt\app\src\main\AndroidManifest.xml:14:13-16:29
+30                <action android:name="android.media.browse.MediaBrowserService" />
+30-->G:\Kotlin\Hilt\app\src\main\AndroidManifest.xml:15:17-82
+30-->G:\Kotlin\Hilt\app\src\main\AndroidManifest.xml:15:25-80
+31            </intent-filter>
+32        </service>
+33
+34        <activity android:name="id.co.hilt.ui.MainActivity" >
+34-->G:\Kotlin\Hilt\app\src\main\AndroidManifest.xml:18:9-24:20
+34-->G:\Kotlin\Hilt\app\src\main\AndroidManifest.xml:18:19-50
+35            <intent-filter>
+35-->G:\Kotlin\Hilt\app\src\main\AndroidManifest.xml:19:13-23:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->G:\Kotlin\Hilt\app\src\main\AndroidManifest.xml:20:17-69
+36-->G:\Kotlin\Hilt\app\src\main\AndroidManifest.xml:20:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->G:\Kotlin\Hilt\app\src\main\AndroidManifest.xml:22:17-77
+38-->G:\Kotlin\Hilt\app\src\main\AndroidManifest.xml:22:27-74
+39            </intent-filter>
+40        </activity>
+41
+42        <service
+42-->[com.google.firebase:firebase-storage-ktx:19.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\7ded9c8942dca3def3c87bda8644cfd5\jetified-firebase-storage-ktx-19.2.0\AndroidManifest.xml:12:9-18:19
+43            android:name="com.google.firebase.components.ComponentDiscoveryService"
+43-->[com.google.firebase:firebase-storage-ktx:19.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\7ded9c8942dca3def3c87bda8644cfd5\jetified-firebase-storage-ktx-19.2.0\AndroidManifest.xml:13:13-84
+44            android:directBootAware="true"
+44-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\e44118b182b3506889b4c316041392b6\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
+45            android:exported="false" >
+45-->[com.google.firebase:firebase-storage-ktx:19.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\7ded9c8942dca3def3c87bda8644cfd5\jetified-firebase-storage-ktx-19.2.0\AndroidManifest.xml:14:13-37
+46            <meta-data
+46-->[com.google.firebase:firebase-storage-ktx:19.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\7ded9c8942dca3def3c87bda8644cfd5\jetified-firebase-storage-ktx-19.2.0\AndroidManifest.xml:15:13-17:85
+47                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar"
+47-->[com.google.firebase:firebase-storage-ktx:19.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\7ded9c8942dca3def3c87bda8644cfd5\jetified-firebase-storage-ktx-19.2.0\AndroidManifest.xml:16:17-122
+48                android:value="com.google.firebase.components.ComponentRegistrar" />
+48-->[com.google.firebase:firebase-storage-ktx:19.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\7ded9c8942dca3def3c87bda8644cfd5\jetified-firebase-storage-ktx-19.2.0\AndroidManifest.xml:17:17-82
+49            <meta-data
+49-->[com.google.firebase:firebase-common-ktx:19.3.1] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\aa3d3c6dced22d1071c514ef0e83062d\jetified-firebase-common-ktx-19.3.1\AndroidManifest.xml:15:13-17:85
+50                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+50-->[com.google.firebase:firebase-common-ktx:19.3.1] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\aa3d3c6dced22d1071c514ef0e83062d\jetified-firebase-common-ktx-19.3.1\AndroidManifest.xml:16:17-113
+51                android:value="com.google.firebase.components.ComponentRegistrar" />
+51-->[com.google.firebase:firebase-common-ktx:19.3.1] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\aa3d3c6dced22d1071c514ef0e83062d\jetified-firebase-common-ktx-19.3.1\AndroidManifest.xml:17:17-82
+52            <meta-data
+52-->[com.google.firebase:firebase-firestore:21.6.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\419a5b69f8d79309cea409b06492fd62\jetified-firebase-firestore-21.6.0\AndroidManifest.xml:20:13-22:85
+53                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+53-->[com.google.firebase:firebase-firestore:21.6.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\419a5b69f8d79309cea409b06492fd62\jetified-firebase-firestore-21.6.0\AndroidManifest.xml:21:17-111
+54                android:value="com.google.firebase.components.ComponentRegistrar" />
+54-->[com.google.firebase:firebase-firestore:21.6.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\419a5b69f8d79309cea409b06492fd62\jetified-firebase-firestore-21.6.0\AndroidManifest.xml:22:17-82
+55            <meta-data
+55-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\13266c634bb7acfa5aadf414b764af68\jetified-firebase-storage-19.2.0\AndroidManifest.xml:33:13-35:85
+56                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+56-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\13266c634bb7acfa5aadf414b764af68\jetified-firebase-storage-19.2.0\AndroidManifest.xml:34:17-107
+57                android:value="com.google.firebase.components.ComponentRegistrar" />
+57-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\13266c634bb7acfa5aadf414b764af68\jetified-firebase-storage-19.2.0\AndroidManifest.xml:35:17-82
+58        </service>
+59
+60        <activity
+60-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\157c52b0e5b3886eebb3052376de4e49\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+61            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+61-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\157c52b0e5b3886eebb3052376de4e49\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+62            android:exported="false"
+62-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\157c52b0e5b3886eebb3052376de4e49\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+63            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+63-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\157c52b0e5b3886eebb3052376de4e49\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+64
+65        <provider
+65-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\e44118b182b3506889b4c316041392b6\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
+66            android:name="com.google.firebase.provider.FirebaseInitProvider"
+66-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\e44118b182b3506889b4c316041392b6\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
+67            android:authorities="id.co.hilt.firebaseinitprovider"
+67-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\e44118b182b3506889b4c316041392b6\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
+68            android:directBootAware="true"
+68-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\e44118b182b3506889b4c316041392b6\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
+69            android:exported="false"
+69-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\e44118b182b3506889b4c316041392b6\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
+70            android:initOrder="100" />
+70-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\e44118b182b3506889b4c316041392b6\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
+71
+72        <meta-data
+72-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\fc4745d67263c420bca719d0371f3a96\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+73            android:name="com.google.android.gms.version"
+73-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\fc4745d67263c420bca719d0371f3a96\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+74            android:value="@integer/google_play_services_version" />
+74-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\fc4745d67263c420bca719d0371f3a96\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+75
+76        <provider
+76-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\afc6b68a2dae7be796d36e2db537a56d\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+77            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+77-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\afc6b68a2dae7be796d36e2db537a56d\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+78            android:authorities="id.co.hilt.lifecycle-process"
+78-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\afc6b68a2dae7be796d36e2db537a56d\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+79            android:exported="false"
+79-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\afc6b68a2dae7be796d36e2db537a56d\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+80            android:multiprocess="true" />
+80-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\afc6b68a2dae7be796d36e2db537a56d\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+81    </application>
+82
+83</manifest>

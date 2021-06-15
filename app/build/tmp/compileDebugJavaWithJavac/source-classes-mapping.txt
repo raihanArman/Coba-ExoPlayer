@@ -1,0 +1,121 @@
+id/co/hilt/MyApplication_GeneratedInjector.java
+ id.co.hilt.MyApplication_GeneratedInjector
+id/co/hilt/exoplayer/FirebaseMusicSource_Factory.java
+ id.co.hilt.exoplayer.FirebaseMusicSource_Factory
+hilt_aggregated_deps/id_co_hilt_ui_viewmodel_SongViewModel_HiltModuleModuleDeps.java
+ hilt_aggregated_deps.id_co_hilt_ui_viewmodel_SongViewModel_HiltModuleModuleDeps
+hilt_aggregated_deps/id_co_hilt_exoplayer_MusicService_GeneratedInjectorModuleDeps.java
+ hilt_aggregated_deps.id_co_hilt_exoplayer_MusicService_GeneratedInjectorModuleDeps
+hilt_aggregated_deps/id_co_hilt_ui_MainActivity_GeneratedInjectorModuleDeps.java
+ hilt_aggregated_deps.id_co_hilt_ui_MainActivity_GeneratedInjectorModuleDeps
+hilt_aggregated_deps/id_co_hilt_ui_fragment_HomeFragment_GeneratedInjectorModuleDeps.java
+ hilt_aggregated_deps.id_co_hilt_ui_fragment_HomeFragment_GeneratedInjectorModuleDeps
+id/co/hilt/di/ServiceModule_ProvideAudioAttributeFactory.java
+ id.co.hilt.di.ServiceModule_ProvideAudioAttributeFactory
+ id.co.hilt.di.ServiceModule_ProvideAudioAttributeFactory$InstanceHolder
+hilt_aggregated_deps/id_co_hilt_di_ServiceModuleModuleDeps.java
+ hilt_aggregated_deps.id_co_hilt_di_ServiceModuleModuleDeps
+id/co/hilt/di/ServiceModule_ProvideDataSourceFactoryFactory.java
+ id.co.hilt.di.ServiceModule_ProvideDataSourceFactoryFactory
+hilt_aggregated_deps/id_co_hilt_ui_viewmodel_MainViewModel_HiltModuleModuleDeps.java
+ hilt_aggregated_deps.id_co_hilt_ui_viewmodel_MainViewModel_HiltModuleModuleDeps
+id/co/hilt/di/ServiceModule_ProvideExoPlayerFactory.java
+ id.co.hilt.di.ServiceModule_ProvideExoPlayerFactory
+hilt_aggregated_deps/id_co_hilt_MyApplication_GeneratedInjectorModuleDeps.java
+ hilt_aggregated_deps.id_co_hilt_MyApplication_GeneratedInjectorModuleDeps
+id/co/hilt/BuildConfig.java
+ id.co.hilt.BuildConfig
+id/co/hilt/di/ServiceModule_ProvideMusicDatabaseFactory.java
+ id.co.hilt.di.ServiceModule_ProvideMusicDatabaseFactory
+ id.co.hilt.di.ServiceModule_ProvideMusicDatabaseFactory$InstanceHolder
+hilt_aggregated_deps/id_co_hilt_di_AppModuleModuleDeps.java
+ hilt_aggregated_deps.id_co_hilt_di_AppModuleModuleDeps
+id/co/hilt/adapter/SongAdapter_Factory.java
+ id.co.hilt.adapter.SongAdapter_Factory
+hilt_aggregated_deps/id_co_hilt_ui_fragment_SongFragment_GeneratedInjectorModuleDeps.java
+ hilt_aggregated_deps.id_co_hilt_ui_fragment_SongFragment_GeneratedInjectorModuleDeps
+id/co/hilt/ui/Hilt_MainActivity.java
+ id.co.hilt.ui.Hilt_MainActivity
+id/co/hilt/ui/fragment/Hilt_HomeFragment.java
+ id.co.hilt.ui.fragment.Hilt_HomeFragment
+id/co/hilt/di/AppModule_ProvideMusicServiceConnectionFactory.java
+ id.co.hilt.di.AppModule_ProvideMusicServiceConnectionFactory
+id/co/hilt/ui/MainActivity_GeneratedInjector.java
+ id.co.hilt.ui.MainActivity_GeneratedInjector
+id/co/hilt/di/AppModule_ProvideSwipeSongAdapterFactory.java
+ id.co.hilt.di.AppModule_ProvideSwipeSongAdapterFactory
+ id.co.hilt.di.AppModule_ProvideSwipeSongAdapterFactory$InstanceHolder
+id/co/hilt/ui/viewmodel/MainViewModel_AssistedFactory_Factory.java
+ id.co.hilt.ui.viewmodel.MainViewModel_AssistedFactory_Factory
+id/co/hilt/ui/fragment/HomeFragment_MembersInjector.java
+ id.co.hilt.ui.fragment.HomeFragment_MembersInjector
+id/co/hilt/ui/fragment/HomeFragment_GeneratedInjector.java
+ id.co.hilt.ui.fragment.HomeFragment_GeneratedInjector
+id/co/hilt/exoplayer/MusicService_MembersInjector.java
+ id.co.hilt.exoplayer.MusicService_MembersInjector
+id/co/hilt/exoplayer/Hilt_MusicService.java
+ id.co.hilt.exoplayer.Hilt_MusicService
+id/co/hilt/Hilt_MyApplication.java
+ id.co.hilt.Hilt_MyApplication
+ id.co.hilt.Hilt_MyApplication$1
+id/co/hilt/di/AppModule_ProvideGlideInstanceFactory.java
+ id.co.hilt.di.AppModule_ProvideGlideInstanceFactory
+id/co/hilt/exoplayer/MusicService_GeneratedInjector.java
+ id.co.hilt.exoplayer.MusicService_GeneratedInjector
+id/co/hilt/ui/viewmodel/MainViewModel_AssistedFactory.java
+ id.co.hilt.ui.viewmodel.MainViewModel_AssistedFactory
+id/co/hilt/ui/MainActivity_MembersInjector.java
+ id.co.hilt.ui.MainActivity_MembersInjector
+id/co/hilt/ui/viewmodel/MainViewModel_HiltModule.java
+ id.co.hilt.ui.viewmodel.MainViewModel_HiltModule
+id/co/hilt/ui/viewmodel/SongViewModel_AssistedFactory_Factory.java
+ id.co.hilt.ui.viewmodel.SongViewModel_AssistedFactory_Factory
+id/co/hilt/ui/fragment/SongFragment_GeneratedInjector.java
+ id.co.hilt.ui.fragment.SongFragment_GeneratedInjector
+id/co/hilt/MyApplication_HiltComponents.java
+ id.co.hilt.MyApplication_HiltComponents
+ id.co.hilt.MyApplication_HiltComponents$ActivityC
+ id.co.hilt.MyApplication_HiltComponents$ActivityC$Builder
+ id.co.hilt.MyApplication_HiltComponents$ActivityCBuilderModule
+ id.co.hilt.MyApplication_HiltComponents$ActivityRetainedC
+ id.co.hilt.MyApplication_HiltComponents$ActivityRetainedC$Builder
+ id.co.hilt.MyApplication_HiltComponents$ActivityRetainedCBuilderModule
+ id.co.hilt.MyApplication_HiltComponents$ApplicationC
+ id.co.hilt.MyApplication_HiltComponents$FragmentC
+ id.co.hilt.MyApplication_HiltComponents$FragmentC$Builder
+ id.co.hilt.MyApplication_HiltComponents$FragmentCBuilderModule
+ id.co.hilt.MyApplication_HiltComponents$ServiceC
+ id.co.hilt.MyApplication_HiltComponents$ServiceC$Builder
+ id.co.hilt.MyApplication_HiltComponents$ServiceCBuilderModule
+ id.co.hilt.MyApplication_HiltComponents$ViewC
+ id.co.hilt.MyApplication_HiltComponents$ViewC$Builder
+ id.co.hilt.MyApplication_HiltComponents$ViewCBuilderModule
+ id.co.hilt.MyApplication_HiltComponents$ViewWithFragmentC
+ id.co.hilt.MyApplication_HiltComponents$ViewWithFragmentC$Builder
+ id.co.hilt.MyApplication_HiltComponents$ViewWithFragmentCBuilderModule
+id/co/hilt/ui/fragment/Hilt_SongFragment.java
+ id.co.hilt.ui.fragment.Hilt_SongFragment
+id/co/hilt/ui/viewmodel/SongViewModel_HiltModule.java
+ id.co.hilt.ui.viewmodel.SongViewModel_HiltModule
+id/co/hilt/DaggerMyApplication_HiltComponents_ApplicationC.java
+ id.co.hilt.DaggerMyApplication_HiltComponents_ApplicationC
+ id.co.hilt.DaggerMyApplication_HiltComponents_ApplicationC$1
+ id.co.hilt.DaggerMyApplication_HiltComponents_ApplicationC$ActivityRetainedCBuilder
+ id.co.hilt.DaggerMyApplication_HiltComponents_ApplicationC$ActivityRetainedCImpl
+ id.co.hilt.DaggerMyApplication_HiltComponents_ApplicationC$ActivityRetainedCImpl$ActivityCBuilder
+ id.co.hilt.DaggerMyApplication_HiltComponents_ApplicationC$ActivityRetainedCImpl$ActivityCImpl
+ id.co.hilt.DaggerMyApplication_HiltComponents_ApplicationC$ActivityRetainedCImpl$ActivityCImpl$FragmentCBuilder
+ id.co.hilt.DaggerMyApplication_HiltComponents_ApplicationC$ActivityRetainedCImpl$ActivityCImpl$FragmentCImpl
+ id.co.hilt.DaggerMyApplication_HiltComponents_ApplicationC$ActivityRetainedCImpl$ActivityCImpl$FragmentCImpl$ViewWithFragmentCBuilder
+ id.co.hilt.DaggerMyApplication_HiltComponents_ApplicationC$ActivityRetainedCImpl$ActivityCImpl$FragmentCImpl$ViewWithFragmentCImpl
+ id.co.hilt.DaggerMyApplication_HiltComponents_ApplicationC$ActivityRetainedCImpl$ActivityCImpl$SwitchingProvider
+ id.co.hilt.DaggerMyApplication_HiltComponents_ApplicationC$ActivityRetainedCImpl$ActivityCImpl$ViewCBuilder
+ id.co.hilt.DaggerMyApplication_HiltComponents_ApplicationC$ActivityRetainedCImpl$ActivityCImpl$ViewCImpl
+ id.co.hilt.DaggerMyApplication_HiltComponents_ApplicationC$Builder
+ id.co.hilt.DaggerMyApplication_HiltComponents_ApplicationC$ServiceCBuilder
+ id.co.hilt.DaggerMyApplication_HiltComponents_ApplicationC$ServiceCImpl
+ id.co.hilt.DaggerMyApplication_HiltComponents_ApplicationC$SwitchingProvider
+id/co/hilt/ui/viewmodel/SongViewModel_AssistedFactory.java
+ id.co.hilt.ui.viewmodel.SongViewModel_AssistedFactory
+id/co/hilt/ui/fragment/SongFragment_MembersInjector.java
+ id.co.hilt.ui.fragment.SongFragment_MembersInjector

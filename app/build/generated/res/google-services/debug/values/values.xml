@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">247433362913-7t6kt5a54ao70df0j5c2j05594j8se9m.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">247433362913</string>
+    <string name="google_api_key" translatable="false">AIzaSyAUTEw0ExZP4z4fGXi5-YJILGG3uzCSQwo</string>
+    <string name="google_app_id" translatable="false">1:247433362913:android:111ddbf4a14631bd6966a0</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAUTEw0ExZP4z4fGXi5-YJILGG3uzCSQwo</string>
+    <string name="google_storage_bucket" translatable="false">sporifyclone.appspot.com</string>
+    <string name="project_id" translatable="false">sporifyclone</string>
+</resources>
