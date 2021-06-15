@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "247433362913",
+    "project_id": "sporifyclone",
+    "storage_bucket": "sporifyclone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247433362913:android:111ddbf4a14631bd6966a0",
+        "android_client_info": {
+          "package_name": "id.co.hilt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247433362913-9bl697q6iu41cu4nidmdiehhf8moe44b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.co.hilt",
+            "certificate_hash": "714345b43c202865025a7ba2ec9969e72e708652"
+          }
+        },
+        {
+          "client_id": "247433362913-7t6kt5a54ao70df0j5c2j05594j8se9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUTEw0ExZP4z4fGXi5-YJILGG3uzCSQwo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247433362913-7t6kt5a54ao70df0j5c2j05594j8se9m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
