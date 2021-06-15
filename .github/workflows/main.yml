@@ -30,7 +30,7 @@ jobs:
         run: chmod +x ./gradlew
       # Runs a single command using the runners shell
       - name: Run Lint
-        run: ./gradlew linDebug
+        run: ./gradlew lintDebug
 
       - name: Upload html test report
         uses: actions/upload-artifact@v2
