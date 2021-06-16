@@ -13,7 +13,12 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c70e6860-cc13-4779-8eaa-d0594c29266b" name="Default Changelist" comment="" />
+    <list default="true" id="c70e6860-cc13-4779-8eaa-d0594c29266b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -255,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623759760915</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix lint unit test">
+      <created>1623759954673</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1623759954673</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -266,7 +278,8 @@
     <MESSAGE value="Add lint" />
     <MESSAGE value="Add lint-" />
     <MESSAGE value="Add lint unit test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add lint unit test" />
+    <MESSAGE value="fix lint unit test" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix lint unit test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="465" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1623747618592">
@@ -289,10 +302,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="263" y="139" key="AndroidCreateResourceFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1623745072538" />
-    <state x="74" y="0" key="CommitChangelistDialog2" timestamp="1623759759385">
+    <state x="74" y="0" key="CommitChangelistDialog2" timestamp="1623759953294">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="74" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1623759759385" />
+    <state x="74" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1623759953294" />
     <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1622621688462">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -325,10 +338,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="29" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1622501314082" />
-    <state x="275" y="113" key="Vcs.Push.Dialog.v2" timestamp="1623759767945">
+    <state x="275" y="113" key="Vcs.Push.Dialog.v2" timestamp="1623759960126">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="113" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1623759767945" />
+    <state x="275" y="113" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1623759960126" />
     <state x="339" y="172" width="672" height="677" key="run.anything.popup" timestamp="1622501148523">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
