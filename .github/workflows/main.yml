@@ -67,10 +67,10 @@ jobs:
 #      - name: Run espresso tests
 #        uses:
   static-code-analysis:
-    needs: ['unit-test]
+    needs: [ unit-test ]
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout the Code
+      - name: Checkout the code
         uses: actions/checkout@v2
 
       - name: set up JDK 11
