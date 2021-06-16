@@ -26,17 +26,17 @@ jobs:
       - name: Checkout the code
         uses: actions/checkout@v2
 
-      - name: Make gradlew executable
-        run: chmod +x ./gradlew
+#      - name: Make gradlew executable
+#        run: chmod +x ./gradlew
       # Runs a single command using the runners shell
-      - name: Run Lint
-        run: ./gradlew lintDebug
+#      - name: Run Lint
+#        run: ./gradlew lintDebug
 
-      - name: Upload html test report
-        uses: actions/upload-artifact@v2
-        with:
-          name: index.html
-          path: app/build/reports/lint-results-debug.html
+#      - name: Upload html test report
+#        uses: actions/upload-artifact@v2
+#        with:
+#          name: index.html
+#          path: app/build/reports/lint-results-debug.html
 
   unit-test:
     needs: [lint]
@@ -45,17 +45,17 @@ jobs:
       - name: Checkout the Code
         uses: actions/checkout@v2
 
-      - name: Make gradlew executable
-        run: chmod +x ./gradlew
+#      - name: Make gradlew executable
+#        run: chmod +x ./gradlew
 
-      - name: Run tests
-        run: ./gradlew test
-
-      - name: Upload test report
-        uses: actions/upload-artifact@v2
-        with:
-          name: unit_test_report
-          path: app/build/reports/tests/testDebugUnitTest/
+#      - name: Run tests
+#        run: ./gradlew test
+#
+#      - name: Upload test report
+#        uses: actions/upload-artifact@v2
+#        with:
+#          name: unit_test_report
+#          path: app/build/reports/tests/testDebugUnitTest/
 
 #  instrumental-test:
 #    needs: [unit-test]
@@ -77,6 +77,9 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 11
+
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
 
       - name: SonarCloud Scan
         run: ./gradlew app:sonarqube -Dsonar.login=${{ secrets.SONAR_TOKEN }}
